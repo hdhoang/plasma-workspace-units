@@ -1,5 +1,6 @@
 [Unit]
 Description=KDE Plasma Workspace Application Launcher
+After=window-manager.service
 
 [Service]
 ExecStart=/usr/bin/krunner
